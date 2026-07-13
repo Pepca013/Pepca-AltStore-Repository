@@ -1,0 +1,106 @@
+{
+    "name": "Pepca's Cool Repo",
+    "subtitle": "Supercell mods and my apps.",
+    "description": "Welcome to my source! Here you'll find all of my apps.",
+    "iconURL": "https://raw.githubusercontent.com/Pepca013/Pepca-AltStore-Repository/refs/heads/main/images/repologo.png",
+    "headerURL": "https://raw.githubusercontent.com/Pepca013/Pepca-AltStore-Repository/refs/heads/main/images/repologo.png",
+    "tintColor": "#ff00f7",
+    "featuredApps": [
+        "nt.nb.ios",
+        "nt.mb.ios"
+    ],
+    "apps": [
+        {
+            "name": "Nulls Brawl",
+            "bundleIdentifier": "nt.nb.ios",
+            "marketplaceID": "0123456789",
+            "developerName": "Nulls.gg",
+            "subtitle": "Brawl Stars Private Server.",
+            "localizedDescription": "Nulls Brawl is a Brawl Stars Unofficial Private Server with unlimited resources and every features unlocked.",
+            "iconURL": "https://nulls.gg/assets/img/nb-icon.png",
+            "tintColor": "#c68be9",
+            "downloadURL": "https://github.com/Pepca013/Pepca-AltStore-Repository/releases/download/Ipas/nb_67.264_c8101ece.ipa",
+            "screenshots": [
+                "https://example.com/myapp_portrait_screenshot1.png",
+                "https://example.com/myapp_portrait_screenshot2.png"
+            ],
+            "versions": [
+                {
+                    "version": "67.264",
+                    "buildVersion": "1",
+                    "date": "2026-05-04",
+                    "size": 1181116006,
+                    "downloadURL": "https://github.com/Pepca013/Pepca-AltStore-Repository/releases/download/Ipas/nb_67.264_c8101ece.ipa",
+                    "localizedDescription": "Update adds 3 Brawlers, Starr Nova, Damian and Bolt and 20+ new skins.",
+                    "minOSVersion": "12.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [
+                    "com.apple.security.application-groups",
+                    "com.apple.developer.siri"
+                ],
+                "privacy": {
+                    "NSCameraUsageDescription": "Nulls Brawl uses camera for team qr code scanning."
+                }
+            }
+        },
+        {
+            "name": "Magic Brawl",
+            "bundleIdentifier": "nt.mb.ios",
+            "marketplaceID": "9876543210",
+            "developerName": "Magic Team, Nulls.gg",
+            "subtitle": "Magic Brawl is a rebirth of Brawl Stars and its golden era!",
+            "localizedDescription": "Magic Brawl is a unofficial private server that brings back the classic Brawl Stars experience with old and custom features, brawlers, and skins.",
+            "iconURL": "https://magicbrawl.gg/images/mb-icon-fumey.png",
+            "tintColor": "#3660A2",
+            "downloadURL": "https://github.com/Pepca013/Pepca-AltStore-Repository/releases/download/Ipas/mb_0fdd78.ipa",
+            "screenshots": [
+                "https://example.com/anotherapp_portrait_1.png",
+                "https://example.com/anotherapp_portrait_2.png"
+            ],
+            "versions": [
+                {
+                    "version": "52.177",
+                    "buildVersion": "1",
+                    "date": "2026-05-10",
+                    "downloadURL": "https://github.com/Pepca013/Pepca-AltStore-Repository/releases/download/Ipas/mb_0fdd78.ipa",
+                    "localizedDescription": "New Season with new brawlers and skins.",
+                    "size": 473956352,
+                    "minOSVersion": "12.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [
+                    "com.apple.developer.healthkit",
+                    "com.apple.developer.game-center"
+                ],
+                "privacy": {
+                    "NSLocalNetworkUsageDescription": "App scans the local network for nearby computers."
+                }
+            }
+        }
+    ],
+    "news": [
+        {
+            "title": "New Feature Announcement",
+            "identifier": "new_feature",
+            "caption": "Introducing a new feature in AltStore!",
+            "date": "2023-03-15",
+            "tintColor": "#5CA399",
+            "imageURL": "https://example.com/new_feature_image.png",
+            "notify": false,
+            "url": "https://example.com/new_feature_details"
+        },
+        {
+            "title": "Gamer Sprout for free!",
+            "identifier": "app_update",
+            "caption": "Get Gamer Sprout right now on Magic Brawl! (Until July 1st)",
+            "date": "2026-06-01",
+            "tintColor": "#b42aaa",
+            "imageURL": "https://magicbrawl.gg/images/sprout_gamer_event.png",
+            "notify": true,
+            "appID": "nt.mb.ios"
+        }
+    ]
+}
